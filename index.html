@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <label for="input">Masukkan Suhu</label>
+            <input type="number" id="input" placeholder="Enter temperature">
+        </div>
+        <div class="box">
+            <label for="output">Hasil</label>
+            <input type="text" id="output" readonly>
+        </div>
+        <div class="box">
+            <label for="calculation">Caranya</label>
+            <textarea id="calculation" rows="4" readonly></textarea>
+        </div>
+        <button id="calculate">Konversi</button>
+        <button id="reverse">Reverse</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
